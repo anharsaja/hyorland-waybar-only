@@ -1,16 +1,16 @@
 {
   "layer": "top",
-  "position": "top",
+  "position": "bottom",
   "mod": "dock",
   "exclusive": true,
   "passthrough": false,
   "gtk-layer-shell": true,
-  "height": 50,
+  "height": 30,
   "modules-left": ["custom/weather", "hyprland/workspaces"],
-  "modules-center": [
-    //  "hyprland/window",
-    "cava",
-  ],
+  // "modules-center": [
+  //   //  "hyprland/window",
+  //   "cava",
+  // ],
   "modules-right": [
     "clock",
     "network",
@@ -181,10 +181,10 @@
   "cava": {
     // "cava_config": "$XDG_CONFIG_HOME/cava/cava.conf",
     "framerate": 144,
-    "autosens": 0,
+    "autosens": 1,
     "sensitivity": 50,
-    "bars": 20,
-    "lower_cutoff_freq": 10000,
+    "bars": 30,
+    "lower_cutoff_freq": 1000,
     "higher_cutoff_freq": 20000,
     "method": "pulse",
     "source": "auto",
